@@ -1,0 +1,30 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# niagads
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/patterninstitute/niagads/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/patterninstitute/niagads/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+`{niagads}` is an R client for the [NIAGADS API](https://api.niagads.org).
+
+## Installation
+
+``` r
+# install.packages("devtools")
+devtools::install_github("patterninstitute/niagads")
+```
+

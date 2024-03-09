@@ -1,0 +1,18 @@
+Package: niagads
+Type: Package
+Title: Client for the NIAGADS REST API
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Ramiro", family = "Magno",
+      email = "rmagno@pattern.institute",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0001-5226-3441")),
+    person("Pattern Institute", role = c("cph", "fnd"))
+    )
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE)
